@@ -1,5 +1,5 @@
 {
-    "name": "vue-simple-icons",
+    "name": "vue-simple-line-icons",
     "version": "0.0.1",
     "description": "This is a Vue container-wrapper component for simple line icons",
     "main": "SimpleLineIcons.vue",

@@ -7,7 +7,7 @@ https://github.com/thesabbir/simple-line-icons/
 
 Get the package:
 ```bash
-npm install vue-json-excel
+npm install vue-simple-line-icons
 ```
 
 Register SimpleLineIcons in your app entrypoint:
@@ -37,12 +37,11 @@ In your template you can call it like this:
 	color="mediumseagreen">
 </simple-line-icons>
 ```
-Required
+
+Required Prop
 - icon: String >>> Contains the icon class.
 
-
-```
-Optional
+Optional Props
 - rotate: Number >>> The degrees of rotation.
 - size: String >>> The size of the icon small OR large.
 - color: String >>> Any hex,rgb,hsla color.
