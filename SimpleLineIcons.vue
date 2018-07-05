@@ -49,11 +49,13 @@ export default {
 <style scoped>
 i {
   font-size: 16px;
+  display: inline-block;
 }
 .small {
   font-size: 12px;
 }
 .large {
   font-size: 22px;
+  font-weight: 600;
 }
 </style>
