@@ -7,14 +7,14 @@ https://github.com/thesabbir/simple-line-icons/
 
 Get the package:
 ```bash
-npm install vue-simple-line-icons
+npm install vue-simple-line
 ```
 
 Register SimpleLineIcons in your app entrypoint:
 ```js
 In main.js
 import Vue from 'vue'
-import SimpleLineIcons from 'vue-json-excel'
+import SimpleLineIcons from 'vue-simple-line'
 
 Vue.component(SimpleLineIcons)
 

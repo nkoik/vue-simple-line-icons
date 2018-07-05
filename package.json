@@ -1,32 +1,32 @@
 {
-    "name": "vue-simple-line-icons",
-    "version": "0.0.1",
-    "description": "This is a Vue container-wrapper component for simple line icons",
-    "main": "SimpleLineIcons.vue",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/nkoik/simplelineicons.git"
-    },
-    "keywords": [
-      "vue",
-      "vuejs",
-      "vue2",
-      "fonts",
-      "icons",
-      "simple line",
-      "simple line icons",
-      "component"
-    ],
-    "author": "Nikos Koikas",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/nkoik/simplelineicons/issues"
-    },
-    "homepage": "https://github.com/nkoik/simplelineicons#readme",
-    "dependencies": {
-      "simple-line-icons": "^2.4.1"
-    }
+  "name": "vue-simple-line",
+  "version": "0.0.1",
+  "description": "This is a Vue container-wrapper component for simple line icons",
+  "main": "SimpleLineIcons.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkoik/simplelineicons.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "vue2",
+    "fonts",
+    "icons",
+    "simple line",
+    "simple line icons",
+    "component"
+  ],
+  "author": "Nikos Koikas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nkoik/simplelineicons/issues"
+  },
+  "homepage": "https://github.com/nkoik/simplelineicons#readme",
+  "dependencies": {
+    "simple-line-icons": "^2.4.1"
   }
+}
