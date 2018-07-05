@@ -16,7 +16,7 @@ In main.js
 import Vue from 'vue'
 import SimpleLineIcons from 'vue-simple-line'
 
-Vue.component(SimpleLineIcons)
+Vue.component('simple-line-icons', SimpleLineIcons)
 
 OR In component
 
