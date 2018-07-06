@@ -25,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/nkoik/simplelineicons/issues"
   },
-  "homepage": "https://github.com/nkoik/simplelineicons#readme",
+  "homepage": "https://github.com/nkoik/simplelineicons/",
   "dependencies": {
     "simple-line-icons": "^2.4.1"
   }
