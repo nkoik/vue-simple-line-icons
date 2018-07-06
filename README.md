@@ -3,14 +3,16 @@ This is a Vue wrapper component for simple line icons fonts.
 https://github.com/thesabbir/simple-line-icons/
 
 
-## ✔ Getting started
+## ✔ Installation
 
 Get the package:
 ```bash
 npm install vue-simple-line
 ```
 
-Register SimpleLineIcons in your app entrypoint:
+## ✔ Use
+
+Register SimpleLineIcons in your app:
 ```js
 In main.js
 import Vue from 'vue'
@@ -37,12 +39,19 @@ In your template you can call it like this:
 	color="mediumseagreen">
 </simple-line-icons>
 ```
+### API
 
 Required Prop
-- icon: String >>> Contains the icon class.
+
+| Property | Description | Type
+|:--|:--|:--|
+| icon | Contains the name of the icon | {<i>String</i>} |
 
 Optional Props
-- rotate: Number >>> The degrees of rotation.
-- size: String >>> The size of the icon small OR large.
-- color: String >>> Any hex,rgb,hsla color.
+
+| Property | Description | Type
+|:--|:--|:--|
+| rotate | The degrees of rotation | {<i>Number</i>} |
+| size | The size of the icon. Values {<b>small</b>} OR {<b>large</b>} | {<i>String</i>} |
+| color | Any hex,rgb,hsla color | {<i>String</i>} |
 
