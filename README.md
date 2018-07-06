@@ -45,13 +45,13 @@ Required Prop
 
 | Property | Description | Type
 |:--|:--|:--|
-| icon | Contains the name of the icon | {<i>String</i>} |
+| icon | Contains the name of the icon | <i>String</i> |
 
 Optional Props
 
 | Property | Description | Type
 |:--|:--|:--|
-| rotate | The degrees of rotation | {<i>Number</i>} |
-| size | The size of the icon. Values {<b>small</b>} OR {<b>large</b>} | {<i>String</i>} |
-| color | Any hex,rgb,hsla color | {<i>String</i>} |
+| rotate | The degrees of rotation | <i>Number</i> |
+| size | The size of the icon. Values <b>small</b> OR <b>large</b> | <i>String</i> |
+| color | Any hex,rgb,hsla color | <i>String</i> |
 
