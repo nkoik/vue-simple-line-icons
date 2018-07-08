@@ -4,7 +4,6 @@ This is a Vue wrapper component for Simple Line Icons ( https://github.com/thesa
 <p align="center">
 <a href="https://www.npmjs.com/package/vue-simple-line"><img src="https://img.shields.io/badge/npm-1.0.5-blue.svg" alt="Version"></a>
   <a href="https://www.npmjs.com/package/vue-simple-line"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>
-    [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d20a7f2f330049e582f6c58a63133012)](https://www.codacy.com/app/nkoik/simplelineicons?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nkoik/simplelineicons&amp;utm_campaign=Badge_Grade)
 </p>
 
 ## ✔ Installation
