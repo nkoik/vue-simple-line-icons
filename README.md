@@ -50,13 +50,13 @@ In your template you can call it like this:
 Required Prop
 
 | Property | Description | Type | Value
-|:--|:--|:--|
+|:--|:--|:--|:--|
 | icon | Icon name | <i>String</i> | Any |
 
 Optional Props
 
 | Property | Description | Type | Value
-|:--|:--|:--|
+|:--|:--|:--|:--|
 | rotate | Rotation degrees | <i>Number</i> | 0-360 |
 | size | Icon size | <i>String</i> | small, large |
 | color | Color | <i>String</i> | Hex,rgb(a),hsl(a),css color name |
