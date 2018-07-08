@@ -1,5 +1,5 @@
 <template>
-  <i :class="[iconClass, fontsizeClass]" :style="[rotationStyle, colorStyle]"></i>
+  <i :class="[iconClass, fontsizeClass, boldClass]" :style="[rotationStyle, colorStyle]"></i>
 </template>
 
 <script>
@@ -24,7 +24,8 @@ export default {
         return value >= 0 && value <= 360
       }
     },
-    color: String
+    color: String,
+    bold: Boolean
   },
   computed: {
     iconClass () {
@@ -42,6 +43,9 @@ export default {
       return {
         color: this.color
       }
+    },
+    boldClass () {
+      return this.bold ? 'bold' : ''
     }
   }
 }
@@ -56,6 +60,9 @@ i {
 }
 .large {
   font-size: 22px;
+  font-weight: 600;
+}
+.bold {
   font-weight: 600;
 }
 </style>
