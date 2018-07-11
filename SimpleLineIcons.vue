@@ -28,7 +28,7 @@ export default {
   },
   computed: {
     iconClass () {
-      return `icon-${this.icon}`
+      return `icon icon-${this.icon}`
     },
     fontsizeClass () {
       return this.size
