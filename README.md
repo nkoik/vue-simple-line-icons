@@ -1,8 +1,10 @@
-# Simple Line Icons as a Vue Component [![NPM version](https://img.shields.io/npm/v/vue-form-generator.svg)](https://www.npmjs.com/package/vue-form-generator) ![VueJS v2.x compatible](https://img.shields.io/badge/vue%202.x-compatible-green.svg)
+# Simple Line Icons as a Vue Component ![VueJS v2.x compatible](https://img.shields.io/badge/vue%202.x-compatible-green.svg)
 
-This is a Vue wrapper component for simple line icons fonts. [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d20a7f2f330049e582f6c58a63133012)](https://www.codacy.com/app/nkoik/simplelineicons?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nkoik/simplelineicons&amp;utm_campaign=Badge_Grade)
-https://github.com/thesabbir/simple-line-icons/
-
+This is a Vue wrapper component for Simple Line Icons ( https://github.com/thesabbir/simple-line-icons/)
+<p align="center">
+<a href="https://www.npmjs.com/package/vue-simple-line"><img src="https://img.shields.io/badge/npm-1.0.5-blue.svg" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/vue-simple-line"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>
+</p>
 
 ## ✔ Installation
 
@@ -21,7 +23,10 @@ import SimpleLineIcons from 'vue-simple-line'
 
 Vue.component('simple-line-icons', SimpleLineIcons)
 
-OR In component
+OR
+
+In your component.vue
+import SimpleLineIcons from 'vue-simple-line'
 
 new Vue({
     components: {
@@ -37,22 +42,23 @@ In your template you can call it like this:
 	icon="plus"
 	:rotate="90"
 	size="small"
-	color="mediumseagreen">
-</simple-line-icons>
+	color="mediumseagreen" />
+
 ```
 ### API
 
 Required Prop
 
-| Property | Description | Type
-|:--|:--|:--|
-| icon | Contains the name of the icon | <i>String</i> |
+| Property | Description | Type | Value
+|:--|:--|:--|:--|
+| icon | Icon name | <i>String</i> | Any |
 
 Optional Props
 
-| Property | Description | Type
-|:--|:--|:--|
-| rotate | The degrees of rotation | <i>Number</i> |
-| size | The size of the icon. Values <b>small</b> OR <b>large</b> | <i>String</i> |
-| color | Any hex,rgb,hsla color | <i>String</i> |
+| Property | Description | Type | Value
+|:--|:--|:--|:--|
+| rotate | Rotation degrees | <i>Number</i> | 0-360 |
+| size | Icon size | <i>String</i> | small, large |
+| color | Color | <i>String</i> | Hex,rgb(a),hsl(a),css color name |
+| bold | Icon weight | <i>Boolean</i> | false |
 
