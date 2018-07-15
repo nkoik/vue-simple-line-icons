@@ -1,6 +1,6 @@
 {
   "name": "vue-simple-line",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "This is a Vue container-wrapper component for simple line icons",
   "main": "SimpleLineIcons.vue",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nkoik/simplelineicons.git"
+    "url": "git+https://github.com/nkoik/vue-simple-line-icons.git"
   },
   "keywords": [
     "vue",
@@ -24,9 +24,9 @@
   "author": "Nikos Koikas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nkoik/simplelineicons/issues"
+    "url": "https://github.com/nkoik/vue-simple-line-icons/issues"
   },
-  "homepage": "https://github.com/nkoik/simplelineicons/",
+  "homepage": "https://github.com/nkoik/vue-simple-line-icons/",
   "dependencies": {
     "simple-line-icons": "^2.4.1"
   }
