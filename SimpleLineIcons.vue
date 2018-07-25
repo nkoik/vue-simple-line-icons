@@ -1,5 +1,5 @@
 <template>
-  <i :class="[iconClass, fontsizeClass, boldClass]" :style="[rotationStyle, colorStyle]"></i>
+  <i :class="classes" :style="styles"></i>
 </template>
 
 <script>
@@ -28,24 +28,18 @@ export default {
     bold: Boolean
   },
   computed: {
-    iconClass () {
-      return `icon icon-${this.icon}`
-    },
-    fontsizeClass () {
-      return this.size
-    },
-    rotationStyle () {
+    classes () {
       return {
-        transform: `rotate(${this.rotate}deg)`
+        [`icon icon-${this.icon}`]: true,
+        [this.size]: !!this.size,
+        bold: this.bold
       }
     },
-    colorStyle () {
+    styles () {
       return {
+        transform: `rotate(${this.rotate}deg)`,
         color: this.color
       }
-    },
-    boldClass () {
-      return this.bold ? 'bold' : ''
     }
   }
 }
