@@ -1,0 +1,20 @@
+i.sli-font {
+	font-size: 22px;
+	display: inline-block;
+}
+.sli-font .small {
+	font-size: 16px;
+}
+.sli-font .large {
+	font-size: 28px;
+}
+svg.sli-svg {
+	width: 22px;
+	display: inline-block;
+}
+.sli-font .small {
+	width: 16px;
+}
+.sli-font .large {
+	width: 28px;
+}
