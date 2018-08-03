@@ -1,23 +1,28 @@
-# Simple Line Icons as a Vue Component ![VueJS v2.x compatible](https://img.shields.io/badge/vue%202.x-compatible-green.svg)
+# 😸 SVG - Simple Line Icons ![VueJS v2.x compatible](https://img.shields.io/badge/vue%202.x-compatible-green.svg)
 
-This is a Vue wrapper component for Simple Line Icons ( https://github.com/thesabbir/simple-line-icons/)
+This is a Vue component for Simple Line Icons and you may choose a SVG or a Font icon just with a prop. 
+By default component will render SVG icon.
+
+![Simple Line Icons sample](https://image.freepik.com/free-vector/simple-line-icons_302-2147488249.jpg "Sample")
 <p align="center">
-<a href="https://www.npmjs.com/package/vue-simple-line"><img src="https://img.shields.io/badge/npm-1.0.8-blue.svg" alt="Version"></a>
+<a href="https://www.npmjs.com/package/vue-simple-line"><img src="https://img.shields.io/badge/npm-1.1.0-blue.svg" alt="Version"></a>
   <a href="https://www.npmjs.com/package/vue-simple-line"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>
 </p>
 
-## ✔ Installation
+### Find the icon name: (http://simplelineicons.com/)
+
+## ✅  Installation
 
 Get the package:
 ```bash
 npm install vue-simple-line
 ```
 
-## ✔ Use
+## ✅  Use
 
 Register SimpleLineIcons in your app:
 ```js
-In main.js
+// In main.js
 import Vue from 'vue'
 import SimpleLineIcons from 'vue-simple-line'
 
@@ -25,7 +30,7 @@ Vue.component('simple-line-icons', SimpleLineIcons)
 
 OR
 
-In your component.vue
+// In your component.vue
 import SimpleLineIcons from 'vue-simple-line'
 
 new Vue({
@@ -42,7 +47,9 @@ In your template you can call it like this:
 	icon="plus"
 	:rotate="90"
 	size="small"
-	color="mediumseagreen" />
+	color="mediumseagreen"
+	no-svg
+/>
 
 ```
 ### API
@@ -60,5 +67,7 @@ Optional Props
 | rotate | Rotation degrees | <i>Number</i> | 0-360 |
 | size | Icon size | <i>String</i> | small, large |
 | color | Color | <i>String</i> | Hex,rgb(a),hsl(a),css color name |
-| bold | Icon weight | <i>Boolean</i> | false |
+| no-svg | Render font icon instead of svg | <i>Boolean</i> | false |
 
+### License
+MIT
