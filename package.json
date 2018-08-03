@@ -1,8 +1,8 @@
 {
   "name": "vue-simple-line",
-  "version": "1.0.8",
-  "description": "This is a Vue container-wrapper component for simple line icons",
-  "main": "SimpleLineIcons.vue",
+  "version": "1.1.0",
+  "description": "This is an SVG Vue component for Simple Line icons.",
+  "main": "SimpleLineIcons.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +16,7 @@
     "vue2",
     "fonts",
     "icons",
+    "svg icons",
     "simple line",
     "simple line icons",
     "vue simple line icons",
