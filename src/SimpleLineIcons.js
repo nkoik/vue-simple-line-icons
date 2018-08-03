@@ -1,6 +1,6 @@
-// import 'simple-line-icons/css/simple-line-icons.css'
+import 'simple-line-icons/css/simple-line-icons.css'
 import './style.css'
-import svgIcon from '@/icon-set'
+import svgIcon from './svgSLIcons.js'
 
 const camelCased = (string) => string.replace(/-([a-z])/g, (g) => g[1].toUpperCase())
 
@@ -32,12 +32,9 @@ export default {
   computed: {
     classes () {
       return {
-        [`sli-${this.noSvg ? 'font' : 'svg'} icon-${this.icon}`]: true,
+        [`sli-${this.noSvg ? 'font icon-' : 'svg '}${this.icon}`]: true,
         [this.size]: !!this.size
       }
-    },
-    fontCssLoader () {
-      return () => this.noSvg ? import('simple-line-icons/css/simple-line-icons.css') : null
     }
   },
   render (h) {
@@ -61,7 +58,7 @@ export default {
       }, [
         h('path', {
           attrs: {
-            d: svgIcon[camelCased(this.icon)].d
+            d: svgIcon[camelCased(this.icon)]
           }
         })
       ])
