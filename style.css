@@ -12,9 +12,9 @@ svg.sli-svg {
 	width: 22px;
 	display: inline-block;
 }
-.sli-font .small {
+.sli-font.small {
 	width: 16px;
 }
-.sli-font .large {
+.sli-font.large {
 	width: 28px;
 }
